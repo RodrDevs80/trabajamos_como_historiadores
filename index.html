@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trabajamos como historiadores · 4° año 1° · ET N° 4</title>
+  <meta name="description"
+    content="Trabajo práctico de Historia: Trabajamos como historiadores. 4° año 1°, Escuela Técnica N° 4 de Añatuya. Muestra 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-libro" viewBox="0 0 48 48">
+      <path d="M10 12h16a6 6 0 0 1 6 6v18H16a6 6 0 0 0-6 6V12z" />
+      <path d="M10 12v24a6 6 0 0 1 6-6h16" />
+      <circle cx="33" cy="31" r="6" />
+      <path d="M37.5 35.5 42 40" />
+    </symbol>
+    <symbol id="i-pergamino" viewBox="0 0 48 48">
+      <path d="M16 10h16a5 5 0 0 1 5 5v18a4 4 0 0 1-4 4H17" />
+      <path d="M16 10c0 3-2.2 4-5 4s-4 1.4-4 4 2 4 4 4 5 1 5 4v8" />
+      <path d="M20 18h10M20 23h10M20 28h6" />
+      <path d="M30 34l4 4 6-8" />
+    </symbol>
+    <symbol id="i-birrete" viewBox="0 0 48 48">
+      <path d="M24 10 6 18l18 8 18-8-18-8z" />
+      <path d="M12 21v8c3.2 3.4 7.4 5 12 5s8.8-1.6 12-5v-8" />
+      <path d="M42 18v12" />
+      <circle cx="42" cy="32" r="1.6" fill="currentColor" stroke="none" />
+      <path d="M34 14.5l2.2-4 2.2 1.2" />
+    </symbol>
+    <symbol id="i-documento" viewBox="0 0 48 48">
+      <path d="M16 8h12l8 8v22a3 3 0 0 1-3 3H16a3 3 0 0 1-3-3V11a3 3 0 0 1 3-3z" />
+      <path d="M28 8v8h8M18 24h12M18 30h12M18 36h8" />
+    </symbol>
+    <symbol id="i-lupa" viewBox="0 0 48 48">
+      <circle cx="21" cy="21" r="10" />
+      <path d="M29 29 40 40" />
+    </symbol>
+    <symbol id="i-lampara" viewBox="0 0 48 48">
+      <path d="M18 28c0-8 3-14 6-14s6 6 6 14" />
+      <path d="M18 28h12v3a6 6 0 0 1-12 0v-3z" />
+      <path d="M21 37h6M24 8v3M12 16l2 2M36 16l-2 2" />
+    </symbol>
+    <symbol id="i-megafono" viewBox="0 0 48 48">
+      <path d="M10 20h8l16-8v24L18 28h-8a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2z" />
+      <path d="M18 28v6a4 4 0 0 0 4 4h1" />
+      <path d="M36 18c2 2 2 10 0 12" />
+    </symbol>
+    <symbol id="i-cuaderno" viewBox="0 0 48 48">
+      <path d="M14 8h20a3 3 0 0 1 3 3v26a3 3 0 0 1-3 3H14a3 3 0 0 1-3-3V11a3 3 0 0 1 3-3z" />
+      <path d="M18 8v32M23 16h8M23 22h8M23 28h6" />
+    </symbol>
+    <symbol id="i-globo" viewBox="0 0 48 48">
+      <circle cx="22" cy="22" r="10" />
+      <path d="M12 22h20M22 12c3 3 4.5 6.5 4.5 10S25 33 22 36c-3-3-4.5-6.5-4.5-10S19 15 22 12z" />
+      <circle cx="34" cy="34" r="6" />
+      <path d="M34 31.5v5M31.5 34h5" />
+    </symbol>
+    <symbol id="i-hoja" viewBox="0 0 48 48">
+      <path d="M10 34c8-2 14-8 16-18 6 2 12 8 14 16-8 2-16 2-22 0-2 4-5 6-8 2z" />
+      <path d="M18 30c4-6 8-10 14-14" />
+    </symbol>
+  </svg>
+
+  <div class="hoja">
+    <header class="masthead">
+      <svg class="adorno" aria-hidden="true">
+        <use href="#i-hoja"></use>
+      </svg>
+      <p class="sobre">Trabajo práctico · Historia</p>
+      <h1>Trabajamos como historiadores</h1>
+      <p class="bajada">4° año 1° — Escuela Técnica N° 4 de Añatuya, Santiago del Estero — Muestra 2026 — Materia:
+        Historia — Profesor: Carlos Eduardo Rodríguez</p>
+      <p class="duracion">Duración estimada: 3 clases</p>
+    </header>
+
+    <nav class="indice" aria-label="Secciones del trabajo práctico">
+      <a href="#afiche">Afiche</a>
+      <a href="#objetivos">Objetivos</a>
+      <a href="#consigna">Consigna</a>
+      <a href="#pasos">Pasos</a>
+      <a href="#taller">Taller</a>
+      <a href="#cierre">Entrega</a>
+    </nav>
+
+    <main id="contenido">
+      <section id="afiche" class="afiche" aria-labelledby="titulo-afiche">
+        <h2 id="titulo-afiche" class="sr-only">El afiche del trabajo práctico</h2>
+        <div class="columnas">
+          <article class="columna revelar">
+            <svg class="icono" aria-hidden="true">
+              <use href="#i-libro"></use>
+            </svg>
+            <h3>La historia como ciencia social</h3>
+            <p class="lead">Estudia el pasado para entender el presente.</p>
+            <ul>
+              <li>Analiza procesos sociales, políticos, económicos y culturales.</li>
+              <li>Usa método, evidencia y análisis crítico.</li>
+              <li>La historia no es solo próceres y fechas patrias.</li>
+            </ul>
+            <svg class="icono icono-pie" aria-hidden="true">
+              <use href="#i-globo"></use>
+            </svg>
+          </article>
+
+          <article class="columna revelar">
+            <svg class="icono" aria-hidden="true">
+              <use href="#i-pergamino"></use>
+            </svg>
+            <h3>Fuentes y trabajo del historiador</h3>
+            <p class="etiqueta">Fuentes</p>
+            <ul class="fuentes">
+              <li>Escritas</li>
+              <li>Orales</li>
+              <li>Materiales</li>
+              <li>Visuales</li>
+            </ul>
+            <p class="etiqueta">Los 4 pasos del historiador</p>
+            <ol class="oficio">
+              <li><span>1. Recolecta</span><svg class="icono chico" aria-hidden="true">
+                  <use href="#i-documento"></use>
+                </svg></li>
+              <li><span>2. Analiza</span><svg class="icono chico" aria-hidden="true">
+                  <use href="#i-lupa"></use>
+                </svg></li>
+              <li><span>3. Interpreta</span><svg class="icono chico" aria-hidden="true">
+                  <use href="#i-lampara"></use>
+                </svg></li>
+              <li><span>4. Comunica</span><svg class="icono chico" aria-hidden="true">
+                  <use href="#i-megafono"></use>
+                </svg></li>
+            </ol>
+          </article>
+
+          <article class="columna revelar">
+            <svg class="icono" aria-hidden="true">
+              <use href="#i-birrete"></use>
+            </svg>
+            <h3>Fundamentación</h3>
+            <p class="pregunta">¿Por qué trabajamos como historiadores?</p>
+            <p>Este trabajo práctico propone a los estudiantes convertirse en historiadores de su propia vida. Así como
+              los historiadores reconstruyen el pasado de una nación o una comunidad utilizando diversas fuentes,
+              ustedes reconstruirán su propia historia escolar.</p>
+            <p>El objetivo es comprender que la historia no es solo un relato lejano sobre próceres y fechas patrias,
+              sino que también se construye con nuestras experiencias, recuerdos y objetos cotidianos.</p>
+            <p>Al hacerlo, aplicaremos las herramientas del oficio del historiador: la búsqueda, el análisis crítico de
+              fuentes y la construcción de un relato histórico significativo.</p>
+            <aside class="sello">
+              <svg class="icono chico" aria-hidden="true">
+                <use href="#i-cuaderno"></use>
+              </svg>
+              <p><strong>Consigna:</strong> Mi historia escolar: un recorrido desde el jardín hasta la técnica.</p>
+            </aside>
+          </article>
+        </div>
+        <div class="puntos" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <section id="objetivos" class="bloque">
+        <p class="kicker">Para qué es este trabajo</p>
+        <h2>Objetivos</h2>
+        <p class="prosa">Que los alumnos sean capaces de:</p>
+        <div class="grilla-4">
+          <article class="tarjeta revelar">
+            <span class="num">01</span>
+            <h3>Identificar</h3>
+            <p>Identificar y clasificar fuentes orales, escritas, materiales y visuales del entorno familiar y personal.
+            </p>
+          </article>
+          <article class="tarjeta revelar">
+            <span class="num">02</span>
+            <h3>Aplicar</h3>
+            <p>Aplicar la metodología del historiador para reconstruir un proceso: la propia trayectoria educativa.</p>
+          </article>
+          <article class="tarjeta revelar">
+            <span class="num">03</span>
+            <h3>Reflexionar</h3>
+            <p>Reflexionar sobre cambios y continuidades, y vincularlos con el contexto social y educativo de la
+              Argentina reciente.</p>
+          </article>
+          <article class="tarjeta revelar">
+            <span class="num">04</span>
+            <h3>Producir</h3>
+            <p>Producir un texto narrativo histórico que dé sentido al pasado y se proyecte hacia el futuro.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="consigna" class="bloque">
+        <p class="kicker">La tarea</p>
+        <h2>Mi historia escolar</h2>
+        <p class="subtitulo">Un recorrido desde el jardín hasta la técnica</p>
+        <div class="consigna-cuerpo">
+          <div class="prosa">
+            <p>Van a investigar, como verdaderos historiadores, su propio pasado. Deberán reconstruir su trayectoria
+              educativa desde los primeros años (el jardín de infantes, si asistieron) hasta hoy, que cursan 4° año en
+              la Escuela Técnica N° 4.</p>
+            <p>El resultado final será un <strong>texto narrativo histórico</strong> sobre ustedes mismos. Está escrito
+              en primera persona, con la mirada de quien analiza su propio pasado.</p>
+          </div>
+          <blockquote>
+            <p>«Las fuentes orales, como el relato de mi madre, indican que…»</p>
+            <p>«Analizando mi boletín de 3.er grado, puedo observar que mi materia preferida era…»</p>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="pasos" class="bloque">
+        <p class="kicker">Metodología</p>
+        <h2>Los pasos de la investigación</h2>
+        <p class="prosa intro">En el afiche, el oficio se resume en cuatro verbos: recolectar, analizar, interpretar y
+          comunicar. En la consigna los seguimos así.</p>
+
+        <div class="camino revelar">
+          <article class="paso">
+            <div class="paso-marca" aria-hidden="true">
+              <span>1</span>
+              <svg class="icono chico">
+                <use href="#i-documento"></use>
+              </svg>
+            </div>
+            <div class="paso-cuerpo">
+              <p class="verbo">Recolecta</p>
+              <h3>La búsqueda de fuentes</h3>
+              <p>Un historiador no puede trabajar sin fuentes. Busquen en sus casas y hablen con sus familias: necesitan
+                pistas del pasado escolar. En la carpeta, completen la última columna con lo que encuentren.</p>
+              <div class="tabla-wrap">
+                <table>
+                  <caption>Fuentes para reconstruir la historia escolar</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Tipo de fuente</th>
+                      <th scope="col">¿Qué puedo buscar?</th>
+                      <th scope="col">Ejemplos</th>
+                      <th scope="col">Mis fuentes</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row" data-label="Tipo de fuente">Orales</th>
+                      <td data-label="¿Qué puedo buscar?">Entrevistas a familiares (padres, abuelos, tíos) y a docentes.
+                        Pregunten por anécdotas, dificultades y logros.</td>
+                      <td data-label="Ejemplos">«Mi mamá me contó cómo fue mi primer día en la primaria.»</td>
+                      <td class="completar" data-label="Mis fuentes">Completar en la carpeta</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" data-label="Tipo de fuente">Escritas</th>
+                      <td data-label="¿Qué puedo buscar?">Documentos oficiales y personales que registren el paso por la
+                        escuela.</td>
+                      <td data-label="Ejemplos">Boletines, cuadernos, carpetas, diplomas, libretas sanitarias, actas de
+                        nacimiento.</td>
+                      <td class="completar" data-label="Mis fuentes">Completar en la carpeta</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" data-label="Tipo de fuente">Materiales</th>
+                      <td data-label="¿Qué puedo buscar?">Objetos que hayan usado o que representen la vida escolar.
+                      </td>
+                      <td data-label="Ejemplos">Guardapolvo, mochila, uniforme de educación física, útiles, la
+                        cartuchera del primario, medallas, escarapelas.</td>
+                      <td class="completar" data-label="Mis fuentes">Completar en la carpeta</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" data-label="Tipo de fuente">Visuales y audiovisuales</th>
+                      <td data-label="¿Qué puedo buscar?">Fotografías y videos de las épocas escolares.</td>
+                      <td data-label="Ejemplos">Fotos de actos, de excursiones, con compañeros de grado, videos de obras
+                        de teatro en la escuela.</td>
+                      <td class="completar" data-label="Mis fuentes">Completar en la carpeta</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </article>
+
+          <article class="paso">
+            <div class="paso-marca" aria-hidden="true">
+              <span>2</span>
+              <svg class="icono chico">
+                <use href="#i-lupa"></use>
+              </svg>
+            </div>
+            <div class="paso-cuerpo">
+              <p class="verbo">Analiza</p>
+              <h3>La organización de la información</h3>
+              <p>Cuando tengan las fuentes, organicen los hitos más importantes en una línea de tiempo. Piensen en estos
+                tramos:</p>
+              <div class="grilla-3">
+                <article class="tarjeta chica">
+                  <h4>Nivel inicial</h4>
+                  <p>¿Fueron al jardín? ¿Cómo se llamaba la maestra o el maestro? ¿Qué recuerdos tienen: canciones,
+                    juegos, merienda?</p>
+                </article>
+                <article class="tarjeta chica">
+                  <h4>Nivel primario</h4>
+                  <p>¿En qué escuela hicieron la primaria? ¿Quién fue su primera maestra? ¿Recuerdan el acto del 25 de
+                    Mayo en 1.er grado? ¿Cómo eran los recreos? ¿Qué materias les gustaban? ¿Qué boletín recuerdan?</p>
+                </article>
+                <article class="tarjeta chica">
+                  <h4>Secundaria hasta 4° año</h4>
+                  <p>¿Por qué eligieron la Escuela Técnica N° 4? ¿Qué cambió al pasar de la primaria a la secundaria?
+                    ¿Qué talleres tienen? ¿Cómo es la relación con profesores y compañeros? ¿Qué fue lo más difícil y lo
+                    más gratificante?</p>
+                </article>
+              </div>
+            </div>
+          </article>
+
+          <article class="paso">
+            <div class="paso-marca" aria-hidden="true">
+              <span>3</span>
+              <svg class="icono chico">
+                <use href="#i-lampara"></use>
+              </svg>
+            </div>
+            <div class="paso-cuerpo">
+              <p class="verbo">Interpreta</p>
+              <h3>La escritura del texto histórico</h3>
+              <p>Con la información analizada, redacten un texto narrativo sobre su propia historia escolar.</p>
+              <ul>
+                <li><strong>Estructura:</strong> introducción (presentación), desarrollo (el recorrido por los niveles)
+                  y conclusión.</li>
+                <li><strong>Fuentes:</strong> incluyan la información más relevante que encontraron.</li>
+                <li><strong>Voz:</strong> primera persona, con mirada crítica. No alcanza con contar: hay que mostrar de
+                  dónde sale cada dato.</li>
+                <li><strong>Título:</strong> tiene que decir algo del relato. No se queden en «Mi historia escolar».
+                </li>
+              </ul>
+              <p class="ejemplos-titulo">Ideas de título: «Del delantal rosa al uniforme de la técnica», «Huellas de
+                tiza y soldadura», «Mi mochila, mi historia».</p>
+            </div>
+          </article>
+
+          <article class="paso">
+            <div class="paso-marca" aria-hidden="true">
+              <span>4</span>
+              <svg class="icono chico">
+                <use href="#i-megafono"></use>
+              </svg>
+            </div>
+            <div class="paso-cuerpo">
+              <p class="verbo">Comunica</p>
+              <h3>Proyectarse al futuro</h3>
+              <p>Al final del texto, agreguen un párrafo con sus anhelos. El relato histórico también mira hacia
+                adelante.</p>
+              <ul>
+                <li>¿Cómo se imaginan en 5.° año?</li>
+                <li>¿Qué les gustaría estudiar o hacer al terminar la secundaria? Trabajar, seguir una carrera
+                  universitaria o terciaria, un profesorado…</li>
+                <li>¿Dónde se ven dentro de 10 años?</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="taller" class="bloque taller">
+        <p class="kicker">Práctica en clase</p>
+        <h2>Taller: practiquen el oficio</h2>
+        <p class="prosa">Antes de escribir la carpeta, prueben dos herramientas del historiador. Lo que armen queda
+          guardado solo en este navegador y <strong>no reemplaza</strong> la entrega en carpeta o en Word.</p>
+
+        <div class="panel revelar">
+          <h3>Clasifiquen las fuentes</h3>
+          <p>Lean cada pista y decidan si es oral, escrita, material o visual. Después de elegir, la pista queda
+            cerrada.</p>
+          <p id="resultado-fuentes" class="marcador" aria-live="polite">Elijan un tipo para cada pista. Hay 8.</p>
+          <div id="pistas" class="pistas"></div>
+          <button type="button" id="reintentar" class="secundario" hidden>Reintentar</button>
+        </div>
+
+        <div class="panel revelar">
+          <h3>Armen hitos de su línea de tiempo</h3>
+          <p>Anoten hasta cuatro recuerdos breves en cada tramo. Sirve para ensayar el paso 2; en la carpeta la línea va
+            completa.</p>
+          <div id="linea" class="tramos">
+            <article class="tramo">
+              <h4>Nivel inicial</h4>
+              <p class="ayuda">¿Jardín, maestra, canciones, juegos, merienda?</p>
+              <form data-tramo="jardin">
+                <label class="sr-only" for="hito-jardin">Nuevo hito del nivel inicial</label>
+                <div class="alta">
+                  <input id="hito-jardin" maxlength="80" placeholder="Ejemplo: la canción de la merienda"
+                    autocomplete="off">
+                  <button type="submit">Agregar hito</button>
+                </div>
+                <p class="error-campo" aria-live="polite"></p>
+              </form>
+              <p class="cupo" data-cupo="jardin"></p>
+              <ol class="hitos" data-lista="jardin"></ol>
+            </article>
+            <article class="tramo">
+              <h4>Nivel primario</h4>
+              <p class="ayuda">¿Escuela, primera maestra, acto del 25 de Mayo, recreos, un boletín?</p>
+              <form data-tramo="primaria">
+                <label class="sr-only" for="hito-primaria">Nuevo hito de la primaria</label>
+                <div class="alta">
+                  <input id="hito-primaria" maxlength="80" placeholder="Ejemplo: el acto del 25 de Mayo"
+                    autocomplete="off">
+                  <button type="submit">Agregar hito</button>
+                </div>
+                <p class="error-campo" aria-live="polite"></p>
+              </form>
+              <p class="cupo" data-cupo="primaria"></p>
+              <ol class="hitos" data-lista="primaria"></ol>
+            </article>
+            <article class="tramo">
+              <h4>Técnica hasta 4°</h4>
+              <p class="ayuda">¿Por qué esta escuela, qué cambió, talleres, lo difícil y lo gratificante?</p>
+              <form data-tramo="tecnica">
+                <label class="sr-only" for="hito-tecnica">Nuevo hito de la secundaria</label>
+                <div class="alta">
+                  <input id="hito-tecnica" maxlength="80" placeholder="Ejemplo: el taller que más me costó"
+                    autocomplete="off">
+                  <button type="submit">Agregar hito</button>
+                </div>
+                <p class="error-campo" aria-live="polite"></p>
+              </form>
+              <p class="cupo" data-cupo="tecnica"></p>
+              <ol class="hitos" data-lista="tecnica"></ol>
+            </article>
+          </div>
+          <div class="acciones-linea">
+            <button type="button" id="ver-ejemplo" class="secundario">Ver un ejemplo</button>
+            <button type="button" id="vaciar-linea" class="secundario ghost">Vaciar la línea</button>
+          </div>
+          <p id="aviso-linea" class="sr-only" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section id="cierre" class="bloque">
+        <p class="kicker">Para la muestra</p>
+        <h2>Cómo se entrega</h2>
+        <div class="grilla-2">
+          <article class="tarjeta revelar">
+            <h3>Presentación</h3>
+            <ul>
+              <li>El trabajo es <strong>individual</strong>.</li>
+              <li>Se entrega en una <strong>carpeta hecha por ustedes</strong>.</li>
+              <li>El texto puede ir en Word (Arial o Times New Roman, tamaño 12, interlineado 1,5) o manuscrito, con
+                letra clara y sin errores de ortografía.</li>
+              <li>Pueden sumar, en el texto o en un anexo, fotos de las fuentes: un guardapolvo, un boletín, un acto
+                escolar.</li>
+              <li>Extensión: mínimo 2 carillas y máximo 4, sin contar el anexo de fotos.</li>
+              <li>Estos trabajos se exhiben en la muestra anual pedagógica.</li>
+            </ul>
+          </article>
+          <article class="tarjeta revelar">
+            <h3>Evaluación</h3>
+            <ul>
+              <li>La capacidad de identificar y usar distintos tipos de fuentes históricas.</li>
+              <li>La organización de la información y la línea de tiempo personal.</li>
+              <li>La calidad del relato: redacción, coherencia y uso de los conceptos trabajados en clase (cambio,
+                continuidad, fuente histórica).</li>
+              <li>La creatividad del título y la reflexión final sobre el futuro.</li>
+              <li>La presentación formal, en tiempo y forma.</li>
+            </ul>
+          </article>
+        </div>
+
+      </section>
+    </main>
+
+    <footer class="pie">
+      <p>La historia escolar se construye con los recuerdos, documentos y voces de nuestra comunidad.</p>
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
